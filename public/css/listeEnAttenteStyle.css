@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.container{
+    margin-top: -45px;
+    zoom: 69%;
+    
+    }
+    
+.navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+    max-width: none;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-link {
+    color: #007bff !important;
+}
+.nav-link:hover {
+    color: #0056b3 !important;
+}
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* .e-table {
+    overflow-x: auto;
+    zoom: 75%;
+}
+.table-lg {
+    font-size: 1.25rem;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.table-bordered thead th {
+    border-top: 0;
+    border-bottom-width: 2px;
+}
+.max-width {
+    max-width: 150px;
+    word-break: break-all;
+}
+.sortable {
+    cursor: pointer;
+} */
+/* Custom CSS Styles */
+.card-title h2 {
+    color: #007bff;
+}
+.card-title label {
+    font-weight: bold;
+}
+.table th {
+    font-weight: bold;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+.table-striped tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

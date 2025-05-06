@@ -1,0 +1,100 @@
+/* Retain styling for body and navbar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+    max-width: none;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-link {
+    color: #007bff !important;
+}
+.nav-link:hover {
+    color: #0056b3 !important;
+}
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* Styling for the form */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.notification {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .badge1 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: rgb(49, 12, 212);
+    color: white;
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* overflow: hidden; */
+}
+.container{
+margin-top: -45px;
+zoom: 72%;
+}
+.navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+    max-height: 50px;
+    width: auto;
+    max-width: none;
+}
+.navbar-toggler {
+    border: none;
+}
+.nav-link {
+    color: #007bff !important;
+}
+.nav-link:hover {
+    color: #0056b3 !important;
+}
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.notification {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .badge1 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: rgb(49, 12, 212);
+    color: white;
+    font-size: 12px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20% auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+  }
+  
+  .trash-icon {
+    width: 50px;
+    height: 50px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  /* Custom CSS Styles */
+.e-tabs {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+.card-title h2 {
+  color: #007bff;
+}
+.card-title label {
+  font-weight: bold;
+}
+.table th {
+  font-weight: bold;
+}
+.table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+.table-striped tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}

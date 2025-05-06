@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  /* overflow: hidden; */
+}
+.container{
+margin-top: 45px;
+/* zoom: 69%; */
+}
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #007bff;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+  max-height: 50px;
+  width: auto;
+  max-width: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-link {
+  color: #007bff !important;
+}
+.nav-link:hover {
+  color: #0056b3 !important;
+}
+@media (min-width: 992px) {
+  .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+}
+.notification {
+  position: relative;
+  display: inline-block;
+}
+/* Style du container principal */
+.container {
+  margin-top: 2rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title h2 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.table-responsive {
+  margin-top: 2rem;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td, .table th {
+  padding: 1rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Style des boutons dans le tableau */
+.table .align-middle {
+  vertical-align: middle !important;
+}
+
+.fa-user, .fa-sign-out-alt {
+  color: #fff;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .navbar-nav .nav-link {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+  }
+
+  .navbar-brand img {
+      max-height: 40px;
+  }
+}
